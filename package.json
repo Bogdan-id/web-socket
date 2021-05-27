@@ -1,0 +1,26 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "v15.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "8.1.0",
+    "bogdan-t-type-ws": "1.0.4",
+    "dotenv": "10.0.0",
+    "nodemon": "2.0.7",
+    "uuid": "8.3.2",
+    "ws": "7.4.4"
+  }
+}
